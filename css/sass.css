@@ -9,14 +9,13 @@
 :root{
     --header-height: 3rem;
     /* Colors */
-    --main-color: #c20d5a;
-    --second-color: rgb(7,3,45);
-    --main-gradient: linear-gradient(121deg, rgba(194,13,90,1) 25%, rgb(255 0 194/ 42%) 100%);
-    --dark-bg:#383848;
-    --main-color-alt: #af547d;
-    --text-color: #707070;
+    --main-color: #212529;;
+    --text-color: #6c757d;
     --white-color: #ffffff;
     --white-alt: #e6e6e6;
+    --border-color: #4b545c;
+    --second-color: #c2c7d0;
+    --shadow-color: #f1f1f185;
     /* Fonts*/
     --body-font: 'Poppins', sans-serif;
     --biggest-font-size:2.25rem;
@@ -50,7 +49,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    color: var(--second-color);
+    
     font-size: 13px;
     font-weight: 400;
     font-family: var(--body-font);
