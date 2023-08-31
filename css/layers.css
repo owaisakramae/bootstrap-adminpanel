@@ -162,6 +162,7 @@ img.img-fluid.mr-2{
     height: 90vh;
     padding-right: 10px;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 nav.animated{
    width: 230px; 
@@ -181,17 +182,28 @@ nav.animated{
 .btn-toggle:hover{
     border: none;
 }
-#sidebar li a{
+#sidebar li a, #sidebar li button{
     display: block;
     padding: 7px 15px;
     color: var(--text-color);
     margin: 5px;
+    width: 96%;
 }
-#sidebar li a:hover,li.active{
+#sidebar li a:hover,
+li.active,
+#sidebar li .button:hover{
     background: var(--second-color);
     border-radius: 4px;
     margin: 5px;
 }
 #sidebar li a i{
     margin-right: 10px;
+}
+nav ul li ul li a{
+	border-left: 10px solid transparent;
+	padding: 10px 20px;
+}
+
+.sub-menu .margin{
+    margin-left: 95px;
 }
