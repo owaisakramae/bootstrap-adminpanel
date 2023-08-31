@@ -144,7 +144,6 @@ img.img-fluid.mr-2{
     left: 270px;
     transition: left 0.3s ease-in-out;
 }
-
 .btn.open{
     left: 5px; /* Move the button to the left when the menu is closed */
 }
@@ -167,7 +166,6 @@ img.img-fluid.mr-2{
 nav.animated{
    width: 230px; 
 }
-
 .offcanvas-body::-webkit-scrollbar {
     width: .5rem;
 }   
@@ -201,9 +199,7 @@ li.active,
 }
 nav ul li ul li a{
 	border-left: 10px solid transparent;
-	padding: 10px 20px;
 }
-
 .sub-menu .margin{
     margin-left: 95px;
 }
