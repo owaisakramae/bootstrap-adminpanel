@@ -15,7 +15,7 @@ img.icon {
 }
 .nav-link.user {
     padding: 6px 0;
-    font-size: 25px;
+    font-size: var(--h1-font-size);
 }
 .nav-link.user p{
     background: var(--main-color);
@@ -42,7 +42,7 @@ p.count{
 a.sidebarCollapse{
     padding-left: 14px;
     color: #999;
-    font-size: 20px;
+    font-size: var(--h2-font-size);
 }
 .dropdown-menu{
     z-index: var(--z-fixed);
@@ -66,8 +66,8 @@ img.user-note{
     padding: 10px 0;
 }
 .dp-main-menu a{
-    font-size: 13px;
-    color: var(--second-color);
+    font-size: var(--small-font-size);
+    color: var(--main-color);
     width: 100%;
     white-space: initial;
     line-height: 13px;
@@ -89,8 +89,8 @@ img.user-note{
     color: var(--white-color);
 }
 p.note-name{
-    font-size: 13px;
-    font-weight: 500;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
 }
 p.note-time{
     font-size: 11px;
@@ -105,9 +105,9 @@ img.sms-user{
     margin-right: 7px;
 }
 p.m-user-name{
-    font-size: 14px;
+    font-size: var(--small-font-size);
     font-weight: 600;
-    color: var(--second-color);
+    color: var(--main-color);
 }
 p.user-role{
     font-size: 12px;
@@ -133,7 +133,7 @@ img.img-fluid.mr-2{
     top: 0;
     left: -260px;
     transition: left 0.3s ease-in-out;
-    z-index: 9999;
+    z-index: var(--z-high);
     color: var(--text-color);
 }
 .offcanvas-menu.open {
@@ -149,7 +149,7 @@ img.img-fluid.mr-2{
     left: 5px; /* Move the button to the left when the menu is closed */
 }
 .user-logo p{
-    font-size: 16px;
+    font-size: var(--h3-font-size);
 }
 .user-logo{
     padding: 13px 8px;
@@ -177,7 +177,6 @@ nav.animated{
 }
 .btn-toggle{
     color: var(--main-color);
-    z-index: 3;
 }
 .btn-toggle:hover{
     border: none;

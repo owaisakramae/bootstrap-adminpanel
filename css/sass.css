@@ -2,15 +2,13 @@
 *{
     padding: 0;
     margin: 0;
-    outline: none;
+    box-sizing: border-box;
 }
-
-
 :root{
     --header-height: 3rem;
     /* Colors */
     --main-color: #212529;;
-    --text-color: #6c757d;
+    --text-color: #fff;
     --white-color: #ffffff;
     --white-alt: #e6e6e6;
     --border-color: #4b545c;
@@ -38,19 +36,14 @@
     /*----Z-index----*/
     --z-tooltip:10;
     --z-fixed:100;
+    --z-high:9999;
 }
 
-*,
-::before,
-::after{
-    box-sizing: border-box;
-}
 html{
     scroll-behavior: smooth;
 }
 body{
-    
-    font-size: 13px;
+    font-size: var(--small-font-size);
     font-weight: 400;
     font-family: var(--body-font);
     line-height: 28px;
@@ -85,9 +78,6 @@ ul{
     padding: 0;
     list-style: none;
 }
-ovh{
-    overflow: hidden;
-}
 table.table{
     white-space: nowrap;
 }
@@ -98,7 +88,6 @@ table.table{
     border-radius: 3px;
     box-shadow: 0px 6px 19px 1px #06041d4a;
 }
-
 .purple-gradient{
     background: var(--main-gradient);
 }
