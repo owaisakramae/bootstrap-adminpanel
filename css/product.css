@@ -1,73 +1,71 @@
-.containers p{
-    font-size: var(--h1-font-size);
+.containers p {
+  font-size: var(--h1-font-size);
 }
-.containers span{
-    font-size: var(--h3-font-size);
-    color: var(--border-color);
+.containers span {
+  font-size: var(--h3-font-size);
+  color: var(--border-color);
 }
-.card-header .btn{
-    width: 100%;
+.card-header .btn {
+  width: 100%;
 }
-.card-header .btn:hover{
+/* .card-header .btn:hover{
     border: none;
-}
-.form-select{
-    font-size: var(--h5-font-size);
-}
-
-
-.pagination li a{
-    color: var(--main-color);
-}
-.pagination > .active > a
-{
-    
-    background-color: var(--main-color) !Important;
-    border: solid 1px transparent !Important;
-    outline: none;
+} */
+.form-select {
+  font-size: var(--h5-font-size);
 }
 
-.pagination > .active > a:hover
-{
-    background-color: var(--main-color) !Important;
-    border: solid 1px transparent;
+.pagination li a {
+  color: var(--main-color);
+}
+.pagination > .active > a {
+  background-color: var(--main-color) !important;
+  border: solid 1px transparent !important;
+  outline: none;
+}
+
+.pagination > .active > a:hover {
+  background-color: var(--main-color) !important;
+  border: solid 1px transparent;
 }
 
 .pagination .page-item .page-link:hover,
-.pagination .page-item .page-link:focus{
-    color: var(--white-color);
-    background-color: var(--border-color);
-    border-radius: none;
-    box-shadow: none;
+.pagination .page-item .page-link:focus {
+  color: var(--white-color);
+  background-color: var(--border-color);
+  border-radius: none;
+  box-shadow: none;
 }
 
 .pagination .page-item.previous .page-link:focus,
 .pagination .page-item.next .page-link:focus,
 .pagination .page-item.active .page-link:focus {
-    box-shadow: 0 0 0 3px transparent;
-    z-index: 2;
-    
+  box-shadow: 0 0 0 3px transparent;
+  z-index: 2;
 }
 
 .dataTables_filter input:focus,
 .dataTables_filter input:hover,
-.dataTables_filter input:active{
-    box-shadow: 0 0 0 3px var(--shadow-color);
-    border-radius: 1px soild var(--border-color);
-    border: 1px solid transparent;
+.dataTables_filter input:active {
+  box-shadow: 0 0 0 3px var(--shadow-color);
+  border-radius: 1px soild var(--border-color);
+  border: 1px solid transparent;
 }
 
 .dataTables_length .form-select:hover,
 .dataTables_length .form-select:active,
-.dataTables_length .form-select:focus{
-    box-shadow: 0 0 0 3px var(--shadow-color);
-    border-radius: 1px soild var(--border-color);
-    border: 1px solid transparent; 
+.dataTables_length .form-select:focus {
+  box-shadow: 0 0 0 3px var(--shadow-color);
+  border-radius: 1px soild var(--border-color);
+  border: 1px solid transparent;
 }
 
 .form-select option:hover,
 .form-select option:active,
-.form-select option:focus{
-    background: var(--shadow-color);
+.form-select option:focus {
+  background: var(--shadow-color);
 }
-
+.accordion-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
