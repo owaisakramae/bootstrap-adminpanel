@@ -36,3 +36,14 @@ document.addEventListener("DOMContentLoaded", function () {
 $(document).ready(function () {
   $("#myTable").DataTable();
 });
+
+
+
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var inputValue = $(this).val().toLowerCase();
+    $("#myTable tbody tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(inputValue) > -1)
+    });
+  });
+});

@@ -1,0 +1,7 @@
+.containers p{
+    font-size: var(--h1-font-size);
+}
+.containers span{
+    font-size: var(--h3-font-size);
+    color: var(--border-color);
+}
