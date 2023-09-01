@@ -203,3 +203,7 @@ nav ul li ul li a{
 .sub-menu .margin{
     margin-left: 95px;
 }
+
+.offcanvas-header a{
+    color: var(--white-color);
+}

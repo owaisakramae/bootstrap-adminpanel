@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 $(document).ready(function () {
   $("#myTable").DataTable();
+  
 });
 
 
